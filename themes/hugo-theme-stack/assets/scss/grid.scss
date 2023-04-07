@@ -10,8 +10,6 @@
     .right-sidebar {
         order: -1;
         max-width: var(--right-sidebar-max-width);
-
-        /// Display right sidebar when min-width: lg
         @include respond(lg) {
             display: flex;
         }
@@ -21,19 +19,19 @@
         @include respond(md) {
             max-width: 1024px;
             --left-sidebar-max-width: 25%;
-            --right-sidebar-max-width: 30%;
+            --right-sidebar-max-width: 15%;
         }
 
         @include respond(lg) {
-            max-width: 1280px;
+            max-width: 1024px;
             --left-sidebar-max-width: 20%;
-            --right-sidebar-max-width: 30%;
+            --right-sidebar-max-width: 15%;
         }
 
         @include respond(xl) {
-            max-width: 1536px;
+            max-width: 1024px;
             --left-sidebar-max-width: 15%;
-            --right-sidebar-max-width: 30%;
+            --right-sidebar-max-width: 15%;
         }
     }
 
