@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>演示站点</title>
+        <link>https://example.com/</link>
+        <description>Recent content on 演示站点</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Fri, 07 Apr 2023 09:37:25 +0800</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Test</title>
+        <link>https://example.com/p/test/</link>
+        <pubDate>Fri, 07 Apr 2023 09:37:25 +0800</pubDate>
+        
+        <guid>https://example.com/p/test/</guid>
+        <description>&lt;p&gt;123123&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
