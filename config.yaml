@@ -37,8 +37,8 @@ params:
     favicon:  # e.g.: favicon placed in `static/favicon.ico` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)
 
     footer:
-        since: 2023
-        customText: by Palzs
+        since: 
+        customText:  
 
     dateFormat:
         published: Jan 02, 2006
@@ -139,7 +139,9 @@ params:
             id:
     widgets:
         homepage:
-            - type: search
+            - type: categories
+              params:
+                  limit: 10
         page:
             - type: toc
 
@@ -174,7 +176,25 @@ params:
 ### See https://docs.stack.jimmycai.com/configuration/custom-menu.html
 ### To remove about, archive and search page menu item, remove `menu` field from their FrontMatter
 menu:
-    main: []
+    main:
+        - identifier: home
+          name: Homepage
+          url: https://hp.palzs.site
+          weight: -100
+          params:
+            icon: home
+        - identifier: wiki
+          name: Wiki
+          url: https://wiki.palzs.site
+          weight: -100
+          params:
+            icon: book
+        - identifier: drive
+          name: Drive
+          url: https://drive.palzs.site
+          weight: -100
+          params:
+            icon: cloud
 
     social:
         - identifier: github
@@ -182,12 +202,6 @@ menu:
           url: https://github.com/palzs
           params:
               icon: brand-github
-
-        - identifier: twitter
-          name: Twitter
-          url: https://twitter.com/darkpalzs
-          params:
-              icon: brand-twitter
 
 related:
     includeNewer: true

@@ -2,3 +2,50 @@
 ::selection {
     background:#e6e6e6
 }
+.article-list--compact article .article-image img {
+    width: var(--image-size);
+    height: var(--image-size);
+    object-fit: cover;
+    border-radius: 27%;
+}
+@font-face {
+    font-family: "Questrial";
+    src: local('./Questrial') format("truetype"), 
+}
+.datebox{
+    position:absolute;
+    left:0%; 
+    bottom:3%; 
+    width: 155px;
+    height:65px;
+    font-family:'Questrial',sans-serif;
+    color:#aaaaaa;      
+    text-align:center;
+    -moz-user-select: none;
+    -o-user-select:none;
+    -khtml-user-select:none;
+    -webkit-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+.date{
+    position:absolute;
+    left:15px; 
+    top:0%; 
+    font-size:24px;
+}
+.dateyear{
+    position:absolute;
+    left:15px; 
+    bottom:0%; 
+    font-size:40px;
+}
+.datebar{
+    position:absolute; 
+    width:5px;
+    height:55px;
+    top: 3px;
+    left:0%; 
+    background-color:#D4B6D7;  
+    border-radius: 3px;
+}

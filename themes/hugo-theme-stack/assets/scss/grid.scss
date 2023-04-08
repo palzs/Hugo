@@ -3,12 +3,17 @@
     margin-right: auto;
 
     .left-sidebar {
+        margin-right: 50px;
+        padding: var(--main-top-padding) 15px;
+        max-height: 100vh;
         order: -3;
         max-width: var(--left-sidebar-max-width);
     }
 
     .right-sidebar {
         order: -1;
+        margin-left: 50px;
+        min-height: 100vh;
         max-width: var(--right-sidebar-max-width);
         @include respond(lg) {
             display: flex;
@@ -23,13 +28,13 @@
         }
 
         @include respond(lg) {
-            max-width: 1024px;
+            max-width: 1280px;
             --left-sidebar-max-width: 20%;
             --right-sidebar-max-width: 15%;
         }
 
         @include respond(xl) {
-            max-width: 1024px;
+            max-width: 1536px;
             --left-sidebar-max-width: 15%;
             --right-sidebar-max-width: 15%;
         }
