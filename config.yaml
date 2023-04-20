@@ -2,12 +2,12 @@ baseurl: https://example.com
 languageCode: zh-cn
 theme: hugo-theme-stack
 paginate: 5
-title: PalzsBLOG
+title: Palzs BLOG
 
 languages:
     zh-cn:
         languageName: 中文
-        title: PalzsBLOG
+        title: Palzs BLOG
         description: A Personal Blog.
         weight: 2
 
