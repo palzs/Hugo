@@ -10,7 +10,7 @@
 }
 @font-face {
     font-family: "Questrial";
-    src: local('./Questrial') format("truetype"); 
+    src: local('../../../../static/Questrial') format("truetype"); 
 }
 body{
     font-family:'Questrial',sans-serif;
