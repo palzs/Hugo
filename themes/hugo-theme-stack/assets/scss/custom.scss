@@ -12,6 +12,9 @@
     font-family: "Questrial";
     src: local('./Questrial') format("truetype"); 
 }
+body{
+    font-family:'Questrial',sans-serif;
+}
 .datebox{
     position:absolute;
     left:0%; 
