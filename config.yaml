@@ -1,7 +1,7 @@
 baseurl: https://example.com
 languageCode: zh-cn
 theme: hugo-theme-stack
-paginate: 5
+paginate: 20
 title: Palzs BLOG
 
 languages:
