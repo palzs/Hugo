@@ -1,7 +1,7 @@
 baseurl: https://example.com
 languageCode: en-us
 theme: hugo-theme-stack
-paginate: 5
+paginate: 20
 title: Example Site
 
 languages:
@@ -34,7 +34,7 @@ DefaultContentLanguage: en
 
 # Set hasCJKLanguage to true if DefaultContentLanguage is in [zh-cn ja ko]
 # This will make .Summary and .WordCount behave correctly for CJK languages.
-hasCJKLanguage: false
+hasCJKLanguage: true
 
 permalinks:
     post: /p/:slug/
@@ -67,6 +67,7 @@ params:
         math: false
         toc: true
         readingTime: true
+        wordCount: true
         license:
             enabled: true
             default: Licensed under CC BY-NC-SA 4.0
