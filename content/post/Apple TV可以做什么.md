@@ -2,6 +2,7 @@
 title: "Apple TV可以做什么"
 description: 
 date: 2023-04-05T09:00:00+08:00
+image: appletv.webp
 math: 
 license: 
 hidden: false
