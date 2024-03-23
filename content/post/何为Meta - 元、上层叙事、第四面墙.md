@@ -8,7 +8,6 @@ license:
 hidden: false
 comments: true
 draft: false
-categories: 概念
 ---
 
 第四面墙的概念最早由法国唯物主义哲学家德尼·狄德罗于18世纪提出，于19世纪被完善和较为广泛的传播，于21世纪经由电子游戏的演绎再次得到关注。
