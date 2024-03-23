@@ -196,13 +196,12 @@ menu:
           weight: -100
           params:
             icon: cloud
-
-    social:
-        - identifier: github
-          name: GitHub
-          url: https://github.com/palzs
+        - identifier: video
+          name: Video
+          url: https://video.palzs.site
+          weight: -100
           params:
-              icon: brand-github
+            icon: video
 
 related:
     includeNewer: true
