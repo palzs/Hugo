@@ -3,11 +3,6 @@
 {{- with (index .Context.Site.Params.widgets $scope) -}}
 
     <aside class="sidebar right-sidebar sticky">
-        <div class="datebox">
-            <div class="date"></div>
-            <div class="dateyear"></div>
-            <div class="datebar"></div>
-        </div>
         {{ range $widget := . }}
             {{ if templates.Exists (printf "partials/widget/%s.html" .type) }}
                 {{ partial (printf "widget/%s" .type) (dict "Context" $context "Params" .params) }}
@@ -17,22 +12,3 @@
         {{ end }}
     </aside>
 {{ end }}
-<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
-<script class="monthcode">
-    var date = new Date();
-    var monthHtml = "";
-    if(date.getMonth()+1==1){monthHtml = "Jan.";}
-    if(date.getMonth()+1==2){monthHtml = "Feb.";}
-    if(date.getMonth()+1==3){monthHtml = "Mar.";}
-    if(date.getMonth()+1==4){monthHtml = "Apr.";}
-    if(date.getMonth()+1==5){monthHtml = "May.";}
-    if(date.getMonth()+1==6){monthHtml = "Jun.";}
-    if(date.getMonth()+1==7){monthHtml = "Jul.";}
-    if(date.getMonth()+1==8){monthHtml = "Aug.";}
-    if(date.getMonth()+1==9){monthHtml = "Sept.";}
-    if(date.getMonth()+1==10){monthHtml = "Oct.";}
-    if(date.getMonth()+1==11){monthHtml = "Nov.";}
-    if(date.getMonth()+1==12){monthHtml = "Dec.";}
-    $(".date").html(monthHtml+date.getDate());
-    $(".dateyear").html(date.getFullYear());
-</script>

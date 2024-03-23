@@ -201,7 +201,7 @@ menu:
           url: https://video.palzs.site
           weight: -100
           params:
-            icon: video
+            icon: infinity
 
 related:
     includeNewer: true
